@@ -56,7 +56,7 @@ const header = () => {
                     <img src="images/cart.svg" alt="User" />
                     <div className='d-flex flex-column'>
                       <span className='badge bg-white text-dark'>0</span>
-                      <p className='md-0'> $ 500</p>
+                      <p className='md-0'>$ 500</p>
                     </div>
                   </Link>
                 </div>
@@ -77,9 +77,9 @@ const header = () => {
                       <span className='me-5 d-inline-block'>Dropdown button</span>
                     </button>
                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a className="dropdown-item" href="#">Action</a></li>
-                      <li><a className="dropdown-item" href="#">Another action</a></li>
-                      <li><a className="dropdown-item" href="#">Something else here</a></li>
+                      <li><Link className="dropdown-item text-white" to="">Action</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Another action</Link></li>
+                      <li><Link className="dropdown-item text-white" to="">Something else here</Link></li>
                     </ul>
                   </div>
                 </div>
