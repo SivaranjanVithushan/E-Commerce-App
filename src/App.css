@@ -350,13 +350,28 @@ address{
   overflow: hidden;
 }
 
-.product-card:hover .action-bar{
-  right: 0;
+
+.product-card .product-image > img:last-child{
+  display: none;
 }
 
+.product-card:hover .product-image > img:nth-child(1){
+  display: none;
+}
+.product-card:hover .product-image > img:nth-child(2){
+  display: block;
+  
+}
+.product-card:hover .action-bar{
+  right: 10px;
+}
 
+.product-card .card-image{
+  height: 154px;
+}
 .product-card .card-image img{
   border-radius: 10px 10px 0 0;
+  object-fit: contain;
 }
 
 .product-card .product-details h6{
@@ -378,5 +393,10 @@ address{
   top: 10%;
   right: -20px;
   transition: 0.3s;
+}
+
+.wishlist-icon{
+  top: 2%;
+  right: 10px;
 }
 /* Product card end */
