@@ -442,3 +442,46 @@ address{
   font-weight: 100;
   color: white;
 }
+
+/* Our store */
+.fitter-card{
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.fitter-title{
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.fitter-card ul,
+.fitter-card .form-check-label{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+ 
+}
+
+
+.fitter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+.fitter-card .form-check-input:checked{
+  background-color: var(--color-febd69);
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+.sub-title{
+  font-size: 13px;
+  color: var(--color-1c1c1b);
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* Our store Ends here */
