@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
+import SpecialProduct from '../components/SpecialProduct';
 
 const Home = () => {
   return (
@@ -197,16 +198,72 @@ const Home = () => {
           <div className='row'>
             <div className='col-12'>
               <div className='section-title'>
-                <h2>Featured Collection</h2>
+                <h3>Featured Collection</h3>
               </div>
             </div>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-          
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+
+          </div>
+        </div>
+      </section>
+      <section className='famous-wrapper home-wrapper-2 py-5'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-3'>
+              <div className='famous-card bg-dark text-white'>
+                <div className='famous-content'>
+                  <h5>Big Screen</h5>
+                  <h6>Smart Watch Series 7</h6>
+                  <p className=''>From $399or $16.62/mo. for 24 mo.*</p>
+                </div>
+                <img src='images/farmus-watch.png' className='img-fluid' alt='' />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section className='special-offer-wrapper py-5 home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='section-title'>
+                <h3>Special Offers</h3>
+              </div>
+            </div>
+            <div className='row'>
+              <SpecialProduct />
+              <SpecialProduct />
+              <SpecialProduct />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className='Popular-wrapper py-5 align-items-center home-wrapper-2'>
+        <div className='container-xxl'>
+          <div className='row'>
+            <div className='col-12'>
+              <div className='section-title'>
+                <h3>Our Popular Products</h3>
+              </div>
+            </div>
+            <div className='row'>
+              {/* <div className='col-2'>
+                <div className='card'></div>
+              </div>
+              <div className='col-2'>
+                <div className='card'></div>
+              </div> */}
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+              <ProductCard />
+            </div>
           </div>
         </div>
       </section>
@@ -246,7 +303,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
       <section className='blog-wrapper py-5 home-wrapper-2'>
         <div className='container-xxl'>
           <div className='row'>
@@ -255,10 +311,10 @@ const Home = () => {
                 <h2>Our Latest News</h2>
               </div>
             </div>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </div>
         </div>
       </section>
