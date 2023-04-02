@@ -215,11 +215,41 @@ const Home = () => {
         <div className='container-xxl'>
           <div className='row'>
             <div className='col-3'>
-              <div className='famous-card bg-dark text-white'>
+            <div className='famous-card bg-dark text-white'>
                 <div className='famous-content'>
-                  <h5>Big Screen</h5>
-                  <h6>Smart Watch Series 7</h6>
-                  <p className=''>From $399or $16.62/mo. for 24 mo.*</p>
+                  <h5 cla>Big Screen</h5>
+                  <h6 cla>Smart Watch Series 7</h6>
+                  <p cla>From $399or $16.62/mo. for 24 mo.*</p>
+                </div>
+                <img src='images/farmus-watch.png' className='img-fluid' alt='' />
+              </div>
+            </div>
+            <div className='col-3'>
+            <div className='famous-card bg-white'>
+                <div className='famous-content'>
+                  <h5 className='text-dark'>Big Screen</h5>
+                  <h6 className='text-dark'>Smart Watch Series 7</h6>
+                  <p className='text-dark'>From $399or $16.62/mo. for 24 mo.*</p>
+                </div>
+                <img src='images/farmus-watch.png' className='img-fluid' alt='' />
+              </div>
+            </div>
+            <div className='col-3'>
+            <div className='famous-card  bg-white'>
+                <div className='famous-content '>
+                  <h5 className='text-dark'>Big Screen</h5>
+                  <h6 className='text-dark'>Smart Watch Series 7</h6>
+                  <p className='text-dark'>From $399or $16.62/mo. for 24 mo.*</p>
+                </div>
+                <img src='images/farmus-watch.png' className='img-fluid' alt='' />
+              </div>
+            </div>
+            <div className='col-3'>
+            <div className='famous-card bg-white text-white'>
+                <div className='famous-content'>
+                  <h5 className='text-dark'>Big Screen</h5>
+                  <h6 className='text-dark'>Smart Watch Series 7</h6>
+                  <p className='text-dark'>From $399or $16.62/mo. for 24 mo.*</p>
                 </div>
                 <img src='images/farmus-watch.png' className='img-fluid' alt='' />
               </div>
@@ -253,12 +283,12 @@ const Home = () => {
               </div>
             </div>
             <div className='row'>
-              {/* <div className='col-2'>
+              <div className='col-2'>
                 <div className='card'></div>
               </div>
               <div className='col-2'>
                 <div className='card'></div>
-              </div> */}
+              </div>
               <ProductCard />
               <ProductCard />
               <ProductCard />
